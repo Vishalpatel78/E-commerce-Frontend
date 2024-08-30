@@ -5,40 +5,36 @@
     height: 100vh;
 }
 
-/* Increase the size of the container */
 .loginsignup-container {
-    width: 80%; /* Adjust the width as desired */
-    max-width: 600px; /* Maximum width to maintain readability */
+    width: 80%;
+    max-width: 600px;
     margin: auto;
-    padding: 30px; /* Increase padding for better spacing */
+    padding: 30px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase box shadow for depth */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Styles for the headings */
 .loginsignup-container h1 {
     text-align: center;
     color: #333;
 }
 
-/* Styles for the input fields */
 .loginsignup-fields input {
     width: 100%;
-    padding: 15px; /* Increase padding for better input field size */
-    margin-bottom: 20px; /* Increase margin bottom for better spacing */
+    padding: 15px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 8px; /* Increase border radius for rounded corners */
+    border-radius: 8px;
     box-sizing: border-box;
 }
 
-/* Styles for the button */
 .loginsignup-container button {
     width: 100%;
-    padding: 15px; /* Increase padding for better button size */
+    padding: 15px;
     background-color: #ff4141;
     border: none;
-    border-radius: 8px; /* Increase border radius for rounded corners */
+    border-radius: 8px;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -48,11 +44,10 @@
     background-color: #f80505;
 }
 
-/* Styles for the login text */
 .loginsignup-login {
     text-align: center;
-    margin-top: 20px; /* Increase margin top for better spacing */
-    font-size:18px;
+    margin-top: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -60,29 +55,25 @@
     color: #ff4141;
 }
 
-/* Styles for the terms and privacy policy */
 .loginsignup-agree {
     display: flex;
     align-items: center;
-    font-size: 14px; /* Adjust font size for better readability */
+    font-size: 14px;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .loginsignup-agree input {
     margin-right: 10px;
 }
-.loginsignup-agree{
-    display:flex;
-    align-items: cneter;
-    margin-top:25px;
-    gap:20px;
-    color:#5c5c5c;
-    font-size:18px;
-    font-weight: 500;
-}
+
 .loginsignup-agree p {
     margin: 0;
     color: #555;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -91,6 +82,6 @@
     text-decoration: none;
 }
 
-.loginsignup-agree p :hover {
+.loginsignup-agree p a:hover {
     text-decoration: underline;
 }
